@@ -26,7 +26,7 @@ let country;
 // boolean => true/false
 // null => standalone value  (type = object)
 // undefined => variable is declared but not assigned a value
-// symbol => unique value;
+// symbol => unique value; 
 
 // typeof is a function, it returns the type of the variable
 console.log(typeof name); // string

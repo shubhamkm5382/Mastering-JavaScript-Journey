@@ -8,14 +8,15 @@ const scoreValue = 100.3
 const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
+// let userEmail = undefined; // This is not recommended 
+typeof userEmail; // undefined
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === anotherId); // false → Symbol is unique, even if the description is same
 
 // const bigNumber = 3456543576654356754n
-
 
 
 // Reference (Non primitive)
